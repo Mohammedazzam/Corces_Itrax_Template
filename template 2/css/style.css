@@ -196,7 +196,7 @@ header .animat .scroll-animat span {
 
 /* Start Data */
 .data {
-  padding: 100px 0;
+  padding: 65px 0;
 }
 .data .container {
   width: 1200px;
@@ -206,6 +206,7 @@ header .animat .scroll-animat span {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 50px;
 }
 .data .container .row .data-info{
   flex: 33.3333%;
@@ -217,6 +218,20 @@ header .animat .scroll-animat span {
 }
 .data .container .row .data-info i{
   margin-left: 15px;
+  font-size: 28px;
+  padding: 20px;
+}
+.data .container .row .data-info h3{
   font-size: 20px;
+  letter-spacing: 1px;
+  color: #333;
+  margin-bottom: 7px;
+  font-family: 'Roboto', sans-serif;
+}
+.data .container .row .data-info p{
+  font-family: 'Roboto', sans-serif;
+  color: #888;
+  font-size: 15px;
+  line-height: 25px;
 }
 /* End Data */
