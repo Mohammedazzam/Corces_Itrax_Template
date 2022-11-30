@@ -324,3 +324,67 @@ header .animat .scroll-animat span {
   background: #fff;
 }
 /* End WhoTwo */
+
+/* Start Services */
+.services {
+  padding: 100px 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+.services .container {
+  background-color: #f8f8f9;
+  width: 1200px;
+  margin: auto;
+}
+.services .container .heading {
+  margin-bottom: 70px;
+}
+.services .container .heading i{
+  font-size: 29px;
+  margin-bottom: 17px;
+  color: #4274b7;
+}
+.services .container .heading h2{
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #303030;
+}
+.services .container .heading p{
+  color: #686868;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.services .container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.services .container .row .services-info {
+  flex: 25%;
+  max-width: 25%;
+  margin-right: 20px;
+}
+.services .container .row .services-info i{
+  background-color: #4274b7;
+  padding: 20px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 21px;
+}
+.services .container .row .services-info h4{
+  color: #303030;
+  margin-bottom: 11px;
+  font-weight: 600;
+}
+.services .container .row .services-info p {
+  color: #686868;
+  font-size: 17px;
+  line-height: 25px;
+}
+/* End Services */
