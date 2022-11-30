@@ -323,6 +323,7 @@ header .animat .scroll-animat span {
 .who.two {
   background: #fff;
 }
+
 /* End WhoTwo */
 
 /* Start Services */
@@ -331,41 +332,49 @@ header .animat .scroll-animat span {
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
+
 .services .container {
   background-color: #f8f8f9;
   width: 1200px;
   margin: auto;
 }
+
 .services .container .heading {
   margin-bottom: 70px;
 }
-.services .container .heading i{
+
+.services .container .heading i {
   font-size: 29px;
   margin-bottom: 17px;
   color: #4274b7;
 }
-.services .container .heading h2{
+
+.services .container .heading h2 {
   font-size: 36px;
   margin-bottom: 10px;
   color: #303030;
 }
-.services .container .heading p{
+
+.services .container .heading p {
   color: #686868;
   font-weight: 600;
   letter-spacing: 1px;
 }
+
 .services .container .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
 }
+
 .services .container .row .services-info {
   flex: 25%;
   max-width: 25%;
   margin-right: 20px;
 }
-.services .container .row .services-info i{
+
+.services .container .row .services-info i {
   background-color: #4274b7;
   padding: 20px;
   border-radius: 50%;
@@ -377,14 +386,84 @@ header .animat .scroll-animat span {
   color: #fff;
   font-size: 21px;
 }
-.services .container .row .services-info h4{
+
+.services .container .row .services-info h4 {
   color: #303030;
   margin-bottom: 11px;
   font-weight: 600;
 }
+
 .services .container .row .services-info p {
   color: #686868;
   font-size: 17px;
   line-height: 25px;
 }
+
 /* End Services */
+
+/* Start Testimonials */
+.testimonials {
+  background-image: url(../img/business-main.jpg);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-family: 'Roboto',sans-serif;
+}
+
+.testimonials .overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #4f7fbb;
+  opacity: 0.9;
+  padding-top: 120px;
+  color: #fff;
+}
+.testimonials .overlay .testimonials-des .comment {
+  font-size: 43px;
+  margin-bottom: 47px;
+}
+.testimonials .overlay .testimonials-des p {
+  font-size: 25px;
+  line-height: 45px;
+  margin-bottom: 40px;
+}
+.testimonials .overlay .testimonials-des span {
+  display: block;
+}
+.testimonials .overlay .testimonials-des .sp-one {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.testimonials .overlay .testimonials-des .sp-two {
+  font-size: 16px;
+  color: #dcdcdc;
+  margin-bottom: 20px;
+}
+.testimonials .overlay .testimonials-des .btn-test {
+  background-color: transparent;
+  border: 2px solid #ddd;
+  color: #fff;
+  padding: 8px;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 5px;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.testimonials .overlay .testimonials-des .btn-test:hover {
+  background-color: #fff;
+  color: #333;
+}
+/* End Testimonials */
