@@ -192,23 +192,27 @@ header .animat .scroll-animat span {
     opacity: 0;
   }
 }
+
 /* End Header */
 
 /* Start Data */
 .data {
   padding: 65px 0;
 }
+
 .data .container {
   width: 1200px;
-  margin:auto
+  margin: auto
 }
+
 .data .container .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
 }
-.data .container .row .data-info{
+
+.data .container .row .data-info {
   flex: 33.3333%;
   max-width: 33.3333%;
   display: flex;
@@ -216,22 +220,107 @@ header .animat .scroll-animat span {
   align-items: flex-start;
   margin-right: 41px;
 }
-.data .container .row .data-info i{
+
+.data .container .row .data-info i {
   margin-left: 15px;
   font-size: 28px;
   padding: 20px;
 }
-.data .container .row .data-info h3{
+
+.data .container .row .data-info h3 {
   font-size: 20px;
   letter-spacing: 1px;
   color: #333;
   margin-bottom: 7px;
   font-family: 'Roboto', sans-serif;
 }
-.data .container .row .data-info p{
+
+.data .container .row .data-info p {
   font-family: 'Roboto', sans-serif;
   color: #888;
   font-size: 15px;
   line-height: 25px;
 }
+
 /* End Data */
+
+/* Start Who */
+.who {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+}
+
+.who .container {
+  width: 1200px;
+  margin: auto
+}
+
+.who .container .row {
+  display: flex;
+  justify-content: center;
+}
+
+.who .container .row .who-img {
+  flex: 50%;
+  max-width: 50%;
+}
+
+.who .container .row .who-img img {
+  width: 542px;
+}
+
+.who .container .row .who-dec {
+  flex: 50%;
+  max-width: 50%;
+  padding-top: 58px 0 58px 21px;
+}
+
+.who .container .row .who-dec h2 {
+  font-size: 37px;
+  font-weight: 500;
+  margin-bottom: 31px;
+  color: #303030;
+}
+
+.who .container .row .who-dec p {
+  font-size: 22px;
+  line-height: 37px;
+  color: #686868;
+}
+
+.who .container .row .who-dec ul {
+  list-style: none;
+}
+
+.who .container .row .who-dec ul li {
+  color: #686868;
+  margin-bottom: 25px;
+}
+
+.who .container .row .who-dec ul li i {
+  color: #4274b7;
+  margin-right: 10px;
+}
+
+.who .container .row .who-dec .btn-one {
+  padding: 15px 24px;
+  color: #fff;
+  background-color: #4274b7;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* End Who */
+
+/* Start WhoTwo */
+.who.two {
+  background: #fff;
+}
+/* End WhoTwo */
