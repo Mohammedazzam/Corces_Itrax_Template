@@ -467,3 +467,74 @@ header .animat .scroll-animat span {
   color: #333;
 }
 /* End Testimonials */
+
+/* Start Logo */
+.logo-company {
+  padding: 90px 0;
+}
+.logo-company .container {
+  width: 1200px;
+  margin:auto
+}
+.logo-company .container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-company .container .row .logo-img {
+  flex: 22%;
+  max-width: 22%;
+  margin-right: 13px;
+  text-align: center;
+}
+.logo-company .container .row .logo-img img{
+  width: 80%;
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.logo-company .container .row .logo-img img:hover{
+  opacity: 1;
+}
+/* End Logo */
+
+/* Start Work */
+.work {
+  background-color: #f8f8f8;
+  padding: 100px 0;
+  text-align: center;
+}
+.work .work-des h2 {
+  font-size: 40px;
+  margin-bottom: 22px;
+  letter-spacing: 1px;
+}
+.work .work-des p {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, .5);
+  font-weight: 500;
+}
+.work .work-des .btn {
+  padding: 20px;
+  border: 0;
+  outline: 0;
+  background-color: #4274b7;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+.work .work-des .btn:hover {
+  background-color: #333
+}
+/* End Work */
