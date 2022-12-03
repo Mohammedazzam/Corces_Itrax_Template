@@ -6,7 +6,6 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  height: 10000px;
 }
 
 /* Start Nav */
@@ -122,11 +121,11 @@ header .header-dec .btn-two {
 header .header-dec .btn-one {
   background-color: #4274b7;
   color: #fff;
-  transition: .3s ease-in-out all;
-  -webkit-transition: .3s ease-in-out all;
-  -moz-transition: .3s ease-in-out all;
-  -ms-transition: .3s ease-in-out all;
-  -o-transition: .3s ease-in-out all;
+  transition: 0.3s ease-in-out all;
+  -webkit-transition: 0.3s ease-in-out all;
+  -moz-transition: 0.3s ease-in-out all;
+  -ms-transition: 0.3s ease-in-out all;
+  -o-transition: 0.3s ease-in-out all;
 }
 
 header .header-dec .btn-one:hover {
@@ -202,7 +201,7 @@ header .animat .scroll-animat span {
 
 .data .container {
   width: 1200px;
-  margin: auto
+  margin: auto;
 }
 
 .data .container .row {
@@ -232,11 +231,11 @@ header .animat .scroll-animat span {
   letter-spacing: 1px;
   color: #333;
   margin-bottom: 7px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .data .container .row .data-info p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #888;
   font-size: 15px;
   line-height: 25px;
@@ -252,7 +251,7 @@ header .animat .scroll-animat span {
 
 .who .container {
   width: 1200px;
-  margin: auto
+  margin: auto;
 }
 
 .who .container .row {
@@ -330,7 +329,7 @@ header .animat .scroll-animat span {
 .services {
   padding: 100px 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .services .container {
@@ -409,7 +408,7 @@ header .animat .scroll-animat span {
   background-size: cover;
   background-position: center;
   text-align: center;
-  font-family: 'Roboto',sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .testimonials .overlay {
@@ -420,28 +419,34 @@ header .animat .scroll-animat span {
   padding-top: 120px;
   color: #fff;
 }
+
 .testimonials .overlay .testimonials-des .comment {
   font-size: 43px;
   margin-bottom: 47px;
 }
+
 .testimonials .overlay .testimonials-des p {
   font-size: 25px;
   line-height: 45px;
   margin-bottom: 40px;
 }
+
 .testimonials .overlay .testimonials-des span {
   display: block;
 }
+
 .testimonials .overlay .testimonials-des .sp-one {
   font-weight: bold;
   margin-bottom: 10px;
   font-size: 18px;
 }
+
 .testimonials .overlay .testimonials-des .sp-two {
   font-size: 16px;
   color: #dcdcdc;
   margin-bottom: 20px;
 }
+
 .testimonials .overlay .testimonials-des .btn-test {
   background-color: transparent;
   border: 2px solid #ddd;
@@ -462,32 +467,38 @@ header .animat .scroll-animat span {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
 }
+
 .testimonials .overlay .testimonials-des .btn-test:hover {
   background-color: #fff;
   color: #333;
 }
+
 /* End Testimonials */
 
 /* Start Logo */
 .logo-company {
   padding: 90px 0;
 }
+
 .logo-company .container {
   width: 1200px;
-  margin:auto
+  margin: auto;
 }
+
 .logo-company .container .row {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .logo-company .container .row .logo-img {
   flex: 22%;
   max-width: 22%;
   margin-right: 13px;
   text-align: center;
 }
-.logo-company .container .row .logo-img img{
+
+.logo-company .container .row .logo-img img {
   width: 80%;
   opacity: 0.7;
   transition: all 0.3s ease-in-out;
@@ -496,9 +507,11 @@ header .animat .scroll-animat span {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
 }
-.logo-company .container .row .logo-img img:hover{
+
+.logo-company .container .row .logo-img img:hover {
   opacity: 1;
 }
+
 /* End Logo */
 
 /* Start Work */
@@ -507,17 +520,20 @@ header .animat .scroll-animat span {
   padding: 100px 0;
   text-align: center;
 }
+
 .work .work-des h2 {
   font-size: 40px;
   margin-bottom: 22px;
   letter-spacing: 1px;
 }
+
 .work .work-des p {
   font-size: 28px;
   margin-bottom: 20px;
-  color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, 0.5);
   font-weight: 500;
 }
+
 .work .work-des .btn {
   padding: 20px;
   border: 0;
@@ -534,7 +550,140 @@ header .animat .scroll-animat span {
   -ms-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
 }
+
 .work .work-des .btn:hover {
-  background-color: #333
+  background-color: #333;
 }
+
 /* End Work */
+
+/* Start Footer */
+footer {
+  padding: 100px 0 0;
+  background-color: #161616;
+  font-family: "Roboto", sans-serif;
+}
+
+footer .container {
+  width: 1200px;
+  margin: auto;
+}
+
+footer .container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .container .row .footer-info {
+  flex: 22%;
+  max-width: 22%;
+}
+
+footer .container .row .footer-info h4 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+footer .container .row .footer-info .about-dec p {
+  color: #58606b;
+  line-height: 26px;
+  font-size: 15px;
+}
+
+footer .container .row .footer-info .hours-info ul,
+footer .container .row .footer-info .pages-info ul {
+  list-style: none;
+  color: #58606b;
+}
+
+footer .container .row .footer-info .hours-info ul li,
+footer .container .row .footer-info .pages-info ul li {
+  margin: 15px 0;
+}
+
+footer .container .row .footer-info .hours-info ul li i,
+footer .container .row .footer-info .pages-info ul li i {
+  margin-right: 10px;
+}
+
+footer .container .row .footer-info .pages-info ul li a {
+  text-decoration: none;
+  color: #58606b;
+}
+
+footer .container .row .footer-info .contact-list {
+  color: #585858;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+footer .container .row .footer-info .contact-list i {
+  margin-right: 10px;
+}
+
+footer .container .row .footer-info .contact-list span {
+  font-size: 15px;
+  line-height: 23px;
+}
+
+footer .container .row .footer-info .contact-list a {
+  color: #cacdd0;
+  text-decoration: none;
+}
+
+footer .container .row .footer-info .contact-list a:hover,
+footer .container .row .footer-info .pages-info ul li a:hover {
+  color: #4274b7;
+}
+
+/* End Footer */
+
+/* Start bottom-footer */
+footer .bottom-footer {
+  margin-top: 53px;
+  background-color: #121b25;
+  padding: 30px;
+}
+
+footer .bottom-footer .footer-main p {
+  color: #585858;
+  font-size: 17px;
+}
+
+footer .bottom-footer .footer-main a {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, .8);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  font-size: 13px;
+}
+
+footer .bottom-footer .footer-main a i {
+  color: #585858;
+  font-size: 17px;
+}
+
+footer .bottom-footer .footer-main .fac:hover {
+  background-color: #4274b7;
+}
+footer .bottom-footer .footer-main i:hover {
+  color: #fff;
+}
+footer .bottom-footer .footer-main .goo:hover {
+  background-color: #dd4b39;
+}
+footer .bottom-footer .footer-main .li:hover {
+  background-color: #007bb5;
+}
+footer .bottom-footer .footer-main .tw:hover{
+  background-color: #00aced;
+}
+
+/* End bottom-footer */
