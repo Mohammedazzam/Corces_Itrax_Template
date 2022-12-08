@@ -1,11 +1,118 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 body {
-    color: #222222;
-    font-family: 'Josefin Sans', sans-serif;
-    height: 5000px;
+  color: #222222;
+  font-family: "Josefin Sans", sans-serif;
+  height: 5000px;
 }
+
+.but {
+  background-color: #329d23;
+  padding: 15px 33px;
+  margin-left: 29px;
+  position: relative;
+}
+
+.but a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  position: relative;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.but a i {
+  margin-right: 8px;
+}
+
+.but::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #1936169d;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ea;
+  -moz-transition: all 0.3s ea;
+  -ms-transition: all 0.3s ea;
+  -o-transition: all 0.3s ea;
+}
+
+.but:hover:before {
+  width: 100%;
+}
+
+/* Start NavBar */
+.navbar {
+  background-color: #fff;
+  padding: 20px 49px;
+  box-shadow: 1px 6px 20px 20px #e1e1e1;
+}
+
+.navbar .navbar-nav .nav-item {
+  margin-right: 30px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  padding: 13px;
+  color: #234821;
+  position: relative;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #329d23;
+}
+.navbar .navbar-nav .nav-item .nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background-color: #329d23;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ea;
+  -moz-transition: all 0.3s ea;
+  -ms-transition: all 0.3s ea;
+  -o-transition: all 0.3s ea;
+  color: #234821;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover::before {
+  width: 100%;
+}
+.navbar .dropdown-menu {
+  position: absolute;
+  top: 133%;
+}
+@media (max-width: 991px) {
+  .navbar {
+    padding: 20px 25px;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:hover {
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+  }
+  .navbar-toggler i {
+    font-size: 25px;
+    color: #329d23;
+  }
+  .navbar .navbar-nav .nav-item .nav-link:hover::before {
+    width: 0;
+  }
+}
+
+/* End NavBar */
