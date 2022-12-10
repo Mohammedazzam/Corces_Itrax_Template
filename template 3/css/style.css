@@ -57,7 +57,6 @@ body {
 .navbar {
   background-color: #fff;
   padding: 20px 49px;
-  box-shadow: 1px 6px 20px 20px #e1e1e1;
 }
 
 .navbar .navbar-nav .nav-item {
@@ -114,5 +113,22 @@ body {
     width: 0;
   }
 }
-
 /* End NavBar */
+
+/* Start Carousel */
+.header {
+    height: 660px;
+}
+.header .carousel-item .info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    text-align: center;
+    color: #fff;
+}
+/* End Carousel */
